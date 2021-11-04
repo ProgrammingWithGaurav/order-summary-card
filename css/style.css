@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&family=Roboto:ital@1&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(225, 100%, 94%);
+}
+
+.background {
+    width: 100%;
+    height: 68vh;
+    position: absolute;
+    top: -40px;
+    background: url('../images/pattern-background-desktop.svg') no-repeat;
+    background-size: cover;
+}
+
+.card {
+    width: 320px;
+    height: 480px;
+    z-index: 3;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-top: 5vh;
+}
+
+.card .img-box img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content .heading {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    color: #21252a;
+}
+
+.content .text {
+    width: 90%;
+    margin: 0 20px;
+    text-align: center;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: #868CA2;
+}
+
+.plan-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 80%;
+    background: #F8F9FE;
+    border-radius: 6px;
+    padding: 0 5px;
+}
+
+.plan {
+    display: flex;
+    align-items: center;
+}
+
+.plan .img img{
+    width: 38px;
+}
+
+.plan p {
+    width: 100px;
+    margin: 0;
+    margin-left: 10px;
+    
+}
+
+.plan .price p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.plan .price .amount{
+    font-family: sans-serif;
+    margin-top: 3px;
+    font-weight: 400;
+    font-size: 12px;
+    color: gray;
+}
+
+.plan-box .change {
+    font-size: 14px;
+    text-decoration: underline;
+    text-decoration-color: #003cff;
+    font-family: sans-serif;
+    color: #003cff;
+    cursor: pointer;
+}
+
+.plan-box .change:active, .change:hover {
+    text-decoration: none;
+}
+
+.processed-button {
+    margin-top: 30px;
+    margin-left: 12.5%;
+    width: 75%;
+}
+
+.processed-button button {
+    width: 100%;
+    color: white;
+    border: none;
+    background-color: #382AE1;
+    box-shadow: 5px 13px 14px rgba(163, 163, 163, 0.52);
+    font-weight: 400;
+    padding: 7px 13px;
+    cursor: pointer;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.processed-button button:active, button:hover {
+    background-color: #766CF1;
+}
+
+.cancel-order {
+    margin-top: 30px;
+    font-family: sans-serif;
+    color: #767E92;
+    font-weight: 500;
+    font-weight: 550;
+    font-size: 13px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cancel-order:hover, .cancel-order:active {
+    color: rgb(26, 26, 26);
+}
