@@ -25,6 +25,7 @@ body {
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
     margin-top: 5vh;
+    box-shadow: 0 0 10px rgb(156, 156, 156);
 }
 
 .card .img-box img {
